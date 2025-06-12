@@ -1,0 +1,41 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Accréditation COFRAC
+description: |
+  Proposition de schéma descriptif des données d'accréditation disponibles sur le [site du COFRAC](https://tools.cofrac.fr/fr/easysearch/)
+type: object
+properties:
+  numero:
+    title: Numéro d'accréditation
+    type: string
+  siren:
+    title: Identifiant SIREN de l'entité accréditée
+    type: string
+  date_debut:
+    title: Date de début d'accréditation
+    type: string
+    format: date
+  date_fin:
+    title: Date de fin d'accréditation
+    type: string
+    format: date
+  activite:
+    title: Activité
+    type: string
+  domaine:
+    title: Domaine
+    type: string
+  sous_domaine:
+    title: Sous-domaine
+    type: [string, "null"]
+  famille:
+    title: Famille
+    type: [string, "null"]
+required:
+  - numero
+  - siren
+  - date_debut
+  - date_fin
+  - activite
+  - domaine
+  - sous_domaine
+  - famille

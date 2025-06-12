@@ -1,0 +1,9 @@
+title: Répertoire des accréditations
+description: Liste des accréditations délivrées par le Comité français d'accréditation (Cofrac)
+owner: Comité français d'accréditation (Cofrac)
+licence: https://www.etalab.gouv.fr/licence-ouverte-open-licence
+home: https://data.gouv.fr/datasets/accreditations-cofrac
+versions:
+  current:
+    schema: https://schema.data.gouv.fr/schemas/cofrac/accreditations/current/schema.yaml
+    url: https://data.gouv.fr/datasets/r/f7f63c83-f838-4650-9170-9c9639a80178
