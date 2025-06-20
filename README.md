@@ -1,26 +1,41 @@
-# Proposition de données publiques des accréditations des organismes d'évaluation de la conformité
+# Liste des organismes d'évaluation de la conformité
 
-Créé en 1994 à l'initiative des pouvoirs publics, le Comité français d'accréditation (Cofrac) assure une mission de service public : garantir la compétence et l'impartialité des organismes d'évaluation de la conformité (OEC), généralement désignés comme organismes de contrôle.
+Proposition de données publiques des organismes d'évaluation de la conformité enregistrés par le Comité français d'accréditation (Cofrac).
 
-Le Cofrac met a disposition un [outil de recherche](https://tools.cofrac.fr/fr/easysearch) des organismes de contrôle accrédités sur son site.
+## 🎯 Quoi ?
 
-L'objectif de ce projet est la publication d'un open data sur [data.gouv.fr](https://www.data.gouv.fr/fr/) pour faciliter la réutilisation des données d'accréditation, notamment dans le cadre de dispositifs soumis à des obligations de contrôle par des organismes accrédités.
+Un open data sur data.gouv.fr des accréditations des organismes d'évaluation de la conformité - ou organismes de contrôle - délivrées par le Comité français d'accréditation (Cofrac).
 
-## Producteurs de données
+## 💬 Pourquoi ?
 
-Le Comité français d'accréditation (Cofrac) est l'unique producteur de données.
+Le contrôle des travaux de rénovation énergétique est nécessaire pour s'assurer de leur mise en oeuvre dans le respect des standards de qualité requis pour atteindre les performances visées. C'est aussi un enjeu de stabilité du service public face à la recrudescence des fraudes.
 
-## Diffusion
+Créé en 1994 à l'initiative des pouvoirs publics, le Comité français d'accréditation (Cofrac) garantit la compétence et l'impartialité des organismes d'évaluation de la conformité (OEC), généralement désignés comme organismes de référence dans le cadre des dispositifs publics soumis à une obligation de contrôle.
 
-Données publiées sur [data.gouv.fr](https://data.gouv.fr).
-
-## Usages
+Le Cofrac met a disposition un outil de recherche des organismes de contrôle accrédités sur son site. Cependant, ces données ne sont pas publiées dans un format facilitant leurs réutilisations :
 
 - Évaluation de la capacité du marché à absorber la demande de contrôles
 - Validation automatique de la recevabilité d'un contrôle
-- Statistiques publiques
+- Statistiques publiques et traitements à des fins de contrôle
 
-## Description des données essentielles
+## 🤝 Pour et avec qui ?
+
+- Comité français d'accréditation (Cofrac)
+- Opérateurs des dispositifs publics soumis à une obligation de contrôle (Ma Prime Rénov', Certificats d'Economies d'Energie, RGE)
+- Administrations publiques de lutte contre la fraude
+
+## 🚀 Comment ?
+
+### Roadmap
+
+1. ✅ Publication du schéma de données publiques
+2. **Validation du schéma de données publiques**
+3. Référencement des secteurs, domaines, sous-domaines et familles d'accréditation
+4. Publication du schéma sur [schema.data.gouv.fr](https://schema.data.gouv.fr/)
+5. Intégration du flux de production de données au système d'information
+6. Publication des données publiques sur [data.gouv.fr](https://data.gouv.fr/)
+
+### Description des données
 
 - Numéro d'accréditation : Clé d'interropérabilité pour identifier une accréditation ;
 - Numéro de SIREN de l'organisme de contrôle ;
@@ -31,11 +46,10 @@ Données publiées sur [data.gouv.fr](https://data.gouv.fr).
 - Sous domaine d'activité couvert par l'accréditation ;
 - Famille d'activité couverte par l'accréditation.
 
-## Roadmap
+### Producteurs de données
 
-1. ✅ Publication du schéma de données publiques
-2. **Validation du schéma de données publiques**
-3. Référencement des secteurs, domaines, sous-domaines et familles d'accréditation
-4. Publication du schéma sur [schema.data.gouv.fr](https://schema.data.gouv.fr/)
-5. Intégration du flux de production de données au système d'information
-6. Publication des données publiques sur [data.gouv.fr](https://data.gouv.fr/)
+Le Comité français d'accréditation (Cofrac) est l'unique producteur de données.
+
+### Diffusion
+
+Données publiées sur [data.gouv.fr](https://data.gouv.fr).
