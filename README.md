@@ -6,6 +6,20 @@ Le Cofrac met a disposition un [outil de recherche](https://tools.cofrac.fr/fr/e
 
 L'objectif de ce projet est la publication d'un open data sur [data.gouv.fr](https://www.data.gouv.fr/fr/) pour faciliter la réutilisation des données d'accréditation, notamment dans le cadre de dispositifs soumis à des obligations de contrôle par des organismes accrédités.
 
+## Producteurs de données
+
+Le Comité français d'accréditation (Cofrac) est l'unique producteur de données.
+
+## Diffusion
+
+Données publiées sur [data.gouv.fr](https://data.gouv.fr).
+
+## Usages
+
+- Évaluation de la capacité du marché à absorber la demande de contrôles
+- Validation automatique de la recevabilité d'un contrôle
+- Statistiques publiques
+
 ## Description des données essentielles
 
 - Numéro d'accréditation : Clé d'interropérabilité pour identifier une accréditation ;
@@ -17,10 +31,11 @@ L'objectif de ce projet est la publication d'un open data sur [data.gouv.fr](htt
 - Sous domaine d'activité couvert par l'accréditation ;
 - Famille d'activité couverte par l'accréditation.
 
-## Feuille de route
+## Roadmap
 
-1. Validation du schéma de données publiques
-2. Référencement des secteurs, domaines, sous-domaines et familles d'accréditation
-3. Publication du schéma sur [schema.data.gouv.fr](https://schema.data.gouv.fr/)
-4. Intégration du flux de production de données au système d'information
-5. Publication des données publiques sur [data.gouv.fr](https://data.gouv.fr/)
+1. ✅ Publication du schéma de données publiques
+2. **Validation du schéma de données publiques**
+3. Référencement des secteurs, domaines, sous-domaines et familles d'accréditation
+4. Publication du schéma sur [schema.data.gouv.fr](https://schema.data.gouv.fr/)
+5. Intégration du flux de production de données au système d'information
+6. Publication des données publiques sur [data.gouv.fr](https://data.gouv.fr/)
