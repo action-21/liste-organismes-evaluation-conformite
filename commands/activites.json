@@ -1,0 +1,42 @@
+[
+  {
+    "code": "ESSAIS",
+    "lib": "Essais"
+  },
+  {
+    "code": "ETAL",
+    "lib": "Etalonnage"
+  },
+  {
+    "code": "INSP",
+    "lib": "Inspection"
+  },
+  {
+    "code": "VV",
+    "lib": "Validation et vérification"
+  },
+  {
+    "code": "PMR",
+    "lib": "Producteurs de Matériaux de Référence"
+  },
+  {
+    "code": "SH",
+    "lib": "Santé humaine"
+  },
+  {
+    "code": "OCIL",
+    "lib": "Organisateurs de Comparaison Inter Laboratoires"
+  },
+  {
+    "code": "CERTPE",
+    "lib": "Certification de personnes (ISO/IEC 17024)"
+  },
+  {
+    "code": "CERTPS",
+    "lib": "Certification de produits et services (ISO/IEC 17065)"
+  },
+  {
+    "code": "CERTSM",
+    "lib": "Certification de systèmes de management (ISO/IEC 17021-1)"
+  }
+]

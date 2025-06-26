@@ -20,16 +20,22 @@ properties:
     format: date
   activite:
     title: Activité
-    type: string
+    $ref: "#/$defs/theme"
   domaine:
     title: Domaine
-    type: string
+    $ref: "#/$defs/theme"
   sous_domaine:
-    title: Sous-domaine
-    type: [string, "null"]
+    title: Sous domaine
+    $ref: "#/$defs/theme"
   famille:
     title: Famille
-    type: [string, "null"]
+    $ref: "#/$defs/theme"
+  nature:
+    title: Nature
+    $ref: "#/$defs/theme"
+  competence:
+    title: Sous domaine
+    $ref: "#/$defs/theme"
 required:
   - numero
   - siren
@@ -39,3 +45,16 @@ required:
   - domaine
   - sous_domaine
   - famille
+$defs:
+  theme:
+    type: object
+    properties:
+      id:
+        title: Identifiant
+        type: [string, number]
+      libelle:
+        title: Libellé
+        type: string
+    required:
+      - id
+      - libelle

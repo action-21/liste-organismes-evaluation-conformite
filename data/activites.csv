@@ -1,0 +1,11 @@
+﻿activité;enumération;html_valeur
+Essais;Essais;ESSAIS|1
+Etalonnage;Etalonnage;ETAL|1
+Inspection;Inspection;INSP|0
+Validation et vérification;ValidationVerification;VV|0
+Producteurs de Matériaux de Référence;ProducteurMateriauxReference;PMR|1
+Santé humaine;SanteHumaine;SH|1
+Organisateurs de Comparaison Inter Laboratoires;OrganisateursComparaisonInterLaboratoires;OCIL|1
+Certification de personnes (ISO/IEC 17024);CertificationPersonnes;CERTPE|0
+Certification de produits et services (ISO/IEC 17065);CertificationProduitsServices;CERTPS|0
+Certification de systèmes de management (ISO/IEC 17021-1);CertificationSystemesManagement;CERTSM|0
